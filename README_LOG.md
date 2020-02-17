@@ -16,3 +16,7 @@
 * 注意事项：
     * 需要对`String`类型的返回做特殊处理，因为`MessageConverter`是不一样的
     * 需要过滤掉`ApiExceptionAdvice`，避免进行两次返回值处理
+    
+#### 5、添加跨域设置
+* 相关类：`com.self.base.system.filters.CorsFilter`
+* 实现内容：对请求统一添加跨域的头信息
