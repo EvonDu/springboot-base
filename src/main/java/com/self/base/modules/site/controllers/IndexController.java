@@ -1,4 +1,4 @@
-package com.self.base.modules.demo.controllers;
+package com.self.base.modules.site.controllers;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,7 +8,7 @@ public class IndexController {
 
     @RequestMapping("/")
     public String index() {
-        return "Spring Boot!";
+        return "Api Index";
     }
 
 }
