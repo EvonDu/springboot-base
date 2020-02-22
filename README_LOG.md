@@ -15,8 +15,12 @@
 * 实现内容：统一处理接口返回结果的数据结构
 * 注意事项：
     * 需要对`String`类型的返回做特殊处理，因为`MessageConverter`是不一样的
-    * 需要过滤掉`ApiExceptionAdvice`，避免进行两次返回值处理
+    * 需要过滤掉`ApiExceptionAdvice`避免进行两次返回值处理（这里直接指定处理包为`com.self.base.modules`）
     
 #### 5、添加跨域设置
 * 相关类：`com.self.base.system.filters.CorsFilter`
 * 实现内容：对请求统一添加跨域的头信息
+
+#### 6、添加Swagger设置
+* 相关类：`package com.self.base.system.configuration.SwaggerConfiguration`
+* 相关依赖：`springfox-swagger2`、`springfox-swagger-ui`

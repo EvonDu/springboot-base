@@ -8,14 +8,13 @@ import org.springframework.http.server.ServerHttpResponse;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
 
-import java.lang.reflect.Type;
 import java.util.HashMap;
 import java.util.Map;
 
 /**
  * 返回结构处理类: 结果处理
  */
-@ControllerAdvice
+@ControllerAdvice(basePackages = "com.self.base.modules")
 public class ApiResponseAdvice implements ResponseBodyAdvice {
 
     /**
@@ -26,9 +25,7 @@ public class ApiResponseAdvice implements ResponseBodyAdvice {
      */
     @Override
     public boolean supports(MethodParameter methodParameter, Class cls) {
-        Type adviceClass = methodParameter.getDeclaringClass();
-        Type filterClass = ApiExceptionAdvice.class;
-        return adviceClass != filterClass;
+        return true;
     }
 
     /**
