@@ -1,4 +1,4 @@
-package com.self.base.modules.site.controllers;
+package com.self.base.app.controllers;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
