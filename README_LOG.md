@@ -24,3 +24,9 @@
 #### 6、添加Swagger设置
 * 相关类：`package com.self.base.system.configuration.SwaggerConfiguration`
 * 相关依赖：`springfox-swagger2`、`springfox-swagger-ui`
+
+#### 7、添加WebSocket服务设置
+* 相关类：
+    *  `com.self.base.services.websocket.config.WebSocketConfig`
+    *  `com.self.base.services.websocket.WebSocketService`
+* 相关依赖：`spring-boot-starter-websocket`

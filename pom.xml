@@ -39,6 +39,12 @@
             </exclusions>
         </dependency>
 
+        <!-- SpringBoot WebSocket -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-websocket</artifactId>
+        </dependency>
+
         <!-- Swagger -->
         <dependency>
             <groupId>io.springfox</groupId>
