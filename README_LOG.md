@@ -30,3 +30,9 @@
     *  `com.self.base.services.websocket.config.WebSocketConfig`
     *  `com.self.base.services.websocket.WebSocketService`
 * 相关依赖：`spring-boot-starter-websocket`
+
+#### 8、添加AMQP服务设置
+* 相关类：
+    *  `com.self.base.services.amqp.config.AmqpConfig`
+    *  `com.self.base.services.amqp.listeners.AmqpListener`
+* 相关依赖：`spring-boot-starter-amqp`

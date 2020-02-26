@@ -1,0 +1,7 @@
+spring:
+  # 配置AMQP服务器
+  rabbitmq:
+    host: 192.168.60.6
+    port: 5672
+    username: admin
+    password: admin
