@@ -1,4 +1,4 @@
-package com.self.base.services.websocket;
+package com.self.base.services.websocket.services;
 
 import org.springframework.stereotype.Component;
 

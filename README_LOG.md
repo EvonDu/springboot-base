@@ -28,7 +28,7 @@
 #### 7、添加WebSocket服务设置
 * 相关类：
     *  `com.self.base.services.websocket.config.WebSocketConfig`
-    *  `com.self.base.services.websocket.WebSocketService`
+    *  `com.self.base.services.websocket.services.WebSocketService`
 * 相关依赖：`spring-boot-starter-websocket`
 
 #### 8、添加AMQP服务设置
