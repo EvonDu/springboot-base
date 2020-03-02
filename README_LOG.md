@@ -22,7 +22,7 @@
 * 实现内容：对请求统一添加跨域的头信息
 
 #### 6、添加Swagger设置
-* 相关类：`package com.self.base.system.configuration.SwaggerConfiguration`
+* 相关类：`package com.self.base.system.config.SwaggerConfiguration`
 * 相关依赖：`springfox-swagger2`、`springfox-swagger-ui`
 
 #### 7、添加WebSocket服务设置
