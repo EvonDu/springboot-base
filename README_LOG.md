@@ -1,5 +1,5 @@
 #### 1、创建示例控制器
-* 相关类：`IndexController`
+* 相关类：`com.self.base.app.controllers.IndexController`
 * 实现内容：简单的返回字符串
 
 #### 2、添加接口异常类
@@ -36,3 +36,7 @@
     *  `com.self.base.services.amqp.config.AmqpConfig`
     *  `com.self.base.services.amqp.listeners.AmqpListener`
 * 相关依赖：`spring-boot-starter-amqp`
+
+#### 9、添加定时任务示例
+* 相关类：`com.self.base.services.works.ScheduledWork`
+* 实现内容：一个简单的定时输出控制台信息的示例
