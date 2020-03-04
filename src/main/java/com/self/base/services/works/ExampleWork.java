@@ -5,12 +5,12 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 /**
- * 示例定时任务工作类
+ * 示例：定时任务
  * 去掉注释生效
  */
 /*@Component*/
 @EnableScheduling
-public class ScheduledWork {
+public class ExampleWork {
 
     @Scheduled(fixedRate=5000)
     public void example(){

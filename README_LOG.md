@@ -38,5 +38,9 @@
 * 相关依赖：`spring-boot-starter-amqp`
 
 #### 9、添加定时任务示例
-* 相关类：`com.self.base.services.works.ScheduledWork`
+* 相关类：`com.self.base.services.works.ExampleWork`
 * 实现内容：一个简单的定时输出控制台信息的示例
+
+#### 10、添加异步执行任务示例
+* 相关类：`com.self.base.services.async.ExampleComponent`
+* 实现内容：一个简单的延迟将信息输出到控制台的示例
