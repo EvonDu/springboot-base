@@ -1,3 +1,4 @@
+# Spring配置
 spring:
   # 配置AMQP服务器
   rabbitmq:
