@@ -44,3 +44,9 @@
 #### 10、添加异步执行任务示例
 * 相关类：`com.self.base.services.async.ExampleComponent`
 * 实现内容：一个简单的延迟将信息输出到控制台的示例
+
+#### 11、添加日志配置
+* 配置文件：`resources/logback-spring.xml`
+
+#### 12、添加工具类:Http工具类
+* 相关类：`com.self.base.utils.HttpUtil`
