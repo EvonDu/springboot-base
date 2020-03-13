@@ -50,3 +50,6 @@
 
 #### 12、添加工具类:Http工具类
 * 相关类：`com.self.base.utils.HttpUtil`
+
+#### 12、添加工具类:Request工具类
+* 相关类：`com.self.base.utils.RequestUtil`
