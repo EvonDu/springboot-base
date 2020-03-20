@@ -1,5 +1,5 @@
 #### 1、创建示例控制器
-* 相关类：`com.self.base.app.controllers.IndexController`
+* 相关类：`com.self.base.modules.site.controller.IndexController`
 * 实现内容：简单的返回字符串
 
 #### 2、添加接口异常类

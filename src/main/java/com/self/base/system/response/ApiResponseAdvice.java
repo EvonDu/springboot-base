@@ -14,7 +14,7 @@ import java.util.Map;
 /**
  * 返回结构处理类: 结果处理
  */
-@ControllerAdvice(basePackages = "com.self.base.app")
+@ControllerAdvice(basePackages = "com.self.base.modules")
 public class ApiResponseAdvice implements ResponseBodyAdvice {
 
     /**
