@@ -53,3 +53,9 @@
 
 #### 12、添加工具类:Request工具类
 * 相关类：`com.self.base.utils.RequestUtil`
+
+#### 12、添加多环境配置
+* 配置文件：
+    * `resources/application.yml`
+    * `resources/application-dev.yml`
+    * `resources/application-pro.yml`
