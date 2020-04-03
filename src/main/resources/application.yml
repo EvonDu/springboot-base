@@ -3,9 +3,19 @@ spring:
   # 配置环境
   profiles:
     active: dev
+  # 数据库配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/tc?characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
   # 配置AMQP服务器
   rabbitmq:
     host: 192.168.60.6
     port: 5672
     username: admin
     password: admin
+# Mybatis配置
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

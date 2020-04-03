@@ -51,11 +51,20 @@
 #### 12、添加工具类:Http工具类
 * 相关类：`com.self.base.utils.HttpUtil`
 
-#### 12、添加工具类:Request工具类
+#### 13、添加工具类:Request工具类
 * 相关类：`com.self.base.utils.RequestUtil`
 
-#### 12、添加多环境配置
+#### 14、添加多环境配置
 * 配置文件：
     * `resources/application.yml`
     * `resources/application-dev.yml`
     * `resources/application-pro.yml`
+    
+#### 15、添加MybatisPlus配置
+* 辅助通用依赖：`lombok`
+* MybatisPlus相关依赖
+    * `mysql-connector-java`
+    * `mybatis-spring-boot-starter`
+    * `mybatis-plus-boot-starter`
+    * `mybatis-plus-generator`
+    * `freemarker`(生成器模板)
