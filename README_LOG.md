@@ -68,3 +68,6 @@
     * `mybatis-plus-boot-starter`
     * `mybatis-plus-generator`
     * `freemarker`(生成器模板)
+    
+#### 16、添加API测试例子
+* 相关类：`com.self.base.modules.site.controller.IndexControllerTest`
