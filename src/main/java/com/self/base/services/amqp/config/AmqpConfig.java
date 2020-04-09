@@ -1,6 +1,9 @@
 package com.self.base.services.amqp.config;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.amqp.core.*;
+import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;
+import org.springframework.amqp.support.converter.MessageConverter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -46,5 +49,15 @@ public class AmqpConfig {
     Binding bindingDirect() {
         return BindingBuilder.bind(this.getQueue()).to(this.getExchange()).with(this.routingKey);
     }
+
+    /**
+     * 定义序列化解析(如果是JSON消息时要定义,如果是普通字符串消息则去掉)
+     * @param objectMapper json序列化实现类
+     * @return MessageConverter 消息序列化工具
+     */
+    /*@Bean
+    public MessageConverter jsonMessageConverter(ObjectMapper objectMapper) {
+        return new Jackson2JsonMessageConverter(objectMapper);
+    }*/
 
 }
